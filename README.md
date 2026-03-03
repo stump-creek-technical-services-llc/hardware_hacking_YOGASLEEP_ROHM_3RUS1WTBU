@@ -212,4 +212,10 @@ SOT-23 package.
 
 See [firmware analysis](firmware-analysis/README.md).
 
-### Conclusion: ?
+### Conclusion: Successful Hack
+
+I was able to replace the original firmware with my own,
+and I'm calling that a successful hack!
+
+In the process, I had to add support for this ROM chip to flashrom.
+It was nice to get a little open-source contribution out of it.

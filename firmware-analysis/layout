@@ -1,0 +1,5 @@
+# Layout
+
+00000000:00200000   FAT12_FS
+00135600:001ffe00   erased
+001ffe00:001fffff   last_block_zeroed

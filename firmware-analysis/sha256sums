@@ -1,0 +1,5 @@
+# Original ROM
+812576032df36ec15ad306e4476fe3b5d671cae79b67a530a62f6ed73ccbe474  ../firmware-images/yogasleep_rohm_3rus1wtbu.bin
+
+# This bootloader code is copyright Microsoft, likely from Windows Vista or later.
+c0e43d7b254da6d399f18d63cf109ffd01a4251154952b479df6fac2c6849948  output/firmware-free.bin.analysis/bootloader.bin
