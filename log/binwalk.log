@@ -1,0 +1,79 @@
+[
+{
+  "Analysis": {
+    "file_path": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "dc1bf81b-a78a-44e4-a0ee-49f1b87e2b32",
+        "size": 2097152,
+        "name": "fat",
+        "confidence": 128,
+        "description": "FAT file system, type: FAT12/16, total size: 2097152 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "dc1bf81b-a78a-44e4-a0ee-49f1b87e2b32": {
+        "size": null,
+        "success": false,
+        "extractor": "",
+        "do_not_recurse": false,
+        "output_directory": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin.extracted/0"
+      }
+    }
+  }
+}
+],
+{
+  "Analysis": {
+    "file_path": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin",
+    "file_map": [
+      {
+        "offset": 0,
+        "id": "b96ed525-3961-4fac-bd1a-7eae18a25d8b",
+        "size": 2097152,
+        "name": "fat",
+        "confidence": 128,
+        "description": "FAT file system, type: FAT12/16, total size: 2097152 bytes",
+        "always_display": false,
+        "extraction_declined": false
+      }
+    ],
+    "extractions": {
+      "b96ed525-3961-4fac-bd1a-7eae18a25d8b": {
+        "size": null,
+        "success": true,
+        "extractor": "tsk_recover",
+        "do_not_recurse": false,
+        "output_directory": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin.extracted/0"
+      }
+    }
+  }
+}
+],
+{
+  "Analysis": {
+    "file_path": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin.extracted/0/rootfs/1.Deep White Noise_201128.mp3",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+],
+{
+  "Analysis": {
+    "file_path": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin.extracted/0/rootfs/3.bright_201128.mp3",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+],
+{
+  "Analysis": {
+    "file_path": "/Volumes/git/hardware_hacking/devices/YOGASLEEP_ROHM_3RUS1WTBU/firmware-analysis/extractions/yogasleep_rohm_3rus1wtbu.bin.extracted/0/rootfs/2.Ocean_201128.mp3",
+    "file_map": [],
+    "extractions": {}
+  }
+}
+]
