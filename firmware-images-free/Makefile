@@ -13,6 +13,8 @@ LOOP_DEV_PATH := loop_dev
 DEV = $(shell losetup -j $(IMAGE_PATH) | cut -d: -f1)
 FILES_DIR = $(GIT_DIR)/firmware-images-free/files
 
+all: clean loop firmware
+
 # Set up the loopback device, emulating an erased 2 MiB flash ROM.
 loop: $(OUTPUT_DIR)
 	@if [ -z "$(DEV)" ]; then \
@@ -35,6 +37,7 @@ fs: $(OUTPUT_DIR)
 	# @0x18: Physical sectors per track: 0100
 	sync
 	echo "MSDOS5.0" | dd of=$(IMAGE_PATH) seek=3B cbs=8B count=8B conv=block,notrunc
+	dd if=/dev/zero of=$(IMAGE_PATH) seek=4095 count=1 conv=notrunc
 	bin2hex $(IMAGE_PATH)
 
 firmware: fs

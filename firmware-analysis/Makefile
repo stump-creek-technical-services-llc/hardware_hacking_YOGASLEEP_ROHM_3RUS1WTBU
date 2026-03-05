@@ -33,7 +33,7 @@ extractions: $(OUTPUT_DIR)
 	cd $(OUTPUT_DIR) && $(LOCAL_BINWALK) -l $(OUTPUT_DIR)/binwalk.log -Me $(FILE)
 
 $(OUTPUT_DIR)/entropy: $(OUTPUT_DIR)
-	binwalk -E $(FILE)
+	binwalk -E $(FILE) | tee $(OUTPUT_DIR)/entropy
 
 $(OUTPUT_DIR)/fsstat: $(OUTPUT_DIR)
 	fsstat $(FILE) > $(OUTPUT_DIR)/fsstat
